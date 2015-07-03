@@ -7,10 +7,21 @@
 //
 
 #import "ViewController.h"
+#import "ButtonViewController.h"
+#import "CrossViewController.h"
+#import "SkidViewController.h"
+#import "PasswordViewController.h"
+#import "Graphics.h"
+#import "Beisaier.h"
 #import <pop/POP.h>
 @interface ViewController ()
 {
     UIButton *_btn;
+     UIButton *_btnSkid;
+    UIButton *_btnCross;
+     UIButton *_btnPassWord;
+    UIButton *_btnGraphics;
+     UIButton *_btnBeisaier;
     UIImageView *_imageView;
     
     BOOL _isOpened;
@@ -25,6 +36,102 @@
 
     
     [self createBtn];
+    
+    
+    _btnSkid = [UIButton buttonWithType:UIButtonTypeSystem];
+    _btnSkid.frame = CGRectMake(0, 100, 50, 30);
+    [_btnSkid setTitle:@"侧滑" forState:UIControlStateNormal];
+    [_btnSkid setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    _btnSkid.backgroundColor = [UIColor redColor];
+    [_btnSkid addTarget:self action:@selector(SkidAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_btnSkid];
+    
+    
+    _btnCross = [UIButton buttonWithType:UIButtonTypeSystem];
+    _btnCross.frame = CGRectMake(0, 180, 50, 30);
+    [_btnCross setTitle:@"交叉" forState:UIControlStateNormal];
+    [_btnCross setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    _btnCross.backgroundColor = [UIColor redColor];
+    [_btnCross addTarget:self action:@selector(CrossAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_btnCross];
+    
+    
+    
+    
+    _btnPassWord = [UIButton buttonWithType:UIButtonTypeSystem];
+    _btnPassWord.frame = CGRectMake(0, 230, 50, 30);
+    [_btnPassWord setTitle:@"密码" forState:UIControlStateNormal];
+    [_btnPassWord setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    _btnPassWord.backgroundColor = [UIColor redColor];
+    [_btnPassWord addTarget:self action:@selector(PassWordAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_btnPassWord];
+    
+    
+    
+    _btnGraphics = [UIButton buttonWithType:UIButtonTypeSystem];
+    _btnGraphics.frame = CGRectMake(0, 280, 50, 30);
+    [_btnGraphics setTitle:@"绘图" forState:UIControlStateNormal];
+    [_btnGraphics setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    _btnGraphics.backgroundColor = [UIColor redColor];
+    [_btnGraphics addTarget:self action:@selector(GraphicsAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_btnGraphics];
+    
+    
+    _btnBeisaier = [UIButton buttonWithType:UIButtonTypeSystem];
+    _btnBeisaier.frame = CGRectMake(0, 320, 50, 30);
+    [_btnBeisaier setTitle:@"贝塞尔" forState:UIControlStateNormal];
+    [_btnBeisaier setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    _btnBeisaier.backgroundColor = [UIColor redColor];
+    [_btnBeisaier addTarget:self action:@selector(BeisaierAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_btnBeisaier];
+    
+    
+    
+}
+
+-(void)PassWordAction
+{
+    
+    PasswordViewController *vc = [[PasswordViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+    
+  
+    
+}
+
+-(void)SkidAction
+{
+    SkidViewController *vc = [[SkidViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+    
+    
+    
+}
+
+-(void)CrossAction
+{
+    CrossViewController *crvc = [[CrossViewController alloc]init];
+    [self.navigationController pushViewController:crvc animated:YES];
+    
+}
+
+-(void)GraphicsAction
+{
+    
+    Graphics *crvc = [[Graphics alloc]init];
+    [self.navigationController pushViewController:crvc animated:YES];
+    
+    
+    
+}
+
+
+-(void)BeisaierAction
+{
+    
+    Beisaier *crvc = [[Beisaier alloc]init];
+    [self.navigationController pushViewController:crvc animated:YES];
+    
     
     
 }
@@ -47,6 +154,7 @@
     _imageView.backgroundColor = [UIColor blueColor];
     _imageView.frame = CGRectMake(100, 200, 200, 200);
     _imageView.userInteractionEnabled = YES;
+    //拖动
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(handlePan:)];
     [_imageView addGestureRecognizer:pan];
     [self.view addSubview:_imageView];
@@ -55,7 +163,7 @@
     
     
     
-    
+    //点击手势
     UITapGestureRecognizer *gestureForSpring = [[UITapGestureRecognizer alloc]init];
     [gestureForSpring addTarget:self action:@selector(changsSize:)];
     [self.view addGestureRecognizer:gestureForSpring];
@@ -66,6 +174,7 @@
     
 }
 
+//出现的时候
 -(void)showPop
 {
     
@@ -92,6 +201,7 @@
     
 }
 
+//隐藏的时候
 -(void)hidePop
 {
     
@@ -188,7 +298,12 @@
 //    
 //     [_btn.layer pop_addAnimation:anim forKey:@"anim"];
 //    
-//    
+//
+    
+    ButtonViewController *Vc = [[ButtonViewController alloc]init];
+    [self.navigationController pushViewController:Vc animated:YES];
+    
+    
  
 }
 
