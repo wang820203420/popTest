@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		911F9D891B1EEA2A009124DB /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 911F9D881B1EEA2A009124DB /* ButtonViewController.m */; };
+		911F9D8C1B1EEA7E009124DB /* FlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 911F9D8B1B1EEA7E009124DB /* FlatButton.m */; };
+		911F9D8F1B1EF0C4009124DB /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 911F9D8E1B1EF0C4009124DB /* UIColor+CustomColors.m */; };
+		911F9E011B2045AE009124DB /* SkidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 911F9E001B2045AE009124DB /* SkidViewController.m */; };
+		911F9EE51B217BAD009124DB /* CrossViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 911F9EE41B217BAD009124DB /* CrossViewController.m */; };
+		911F9EE81B217C95009124DB /* PaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 911F9EE71B217C95009124DB /* PaperButton.m */; };
 		9142909D1B1BFB2A0047B51B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9142909C1B1BFB2A0047B51B /* main.m */; };
 		914290A01B1BFB2A0047B51B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9142909F1B1BFB2A0047B51B /* AppDelegate.m */; };
 		914290A31B1BFB2A0047B51B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 914290A21B1BFB2A0047B51B /* ViewController.m */; };
@@ -14,6 +20,11 @@
 		914290A81B1BFB2A0047B51B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914290A71B1BFB2A0047B51B /* Images.xcassets */; };
 		914290AB1B1BFB2A0047B51B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 914290A91B1BFB2A0047B51B /* LaunchScreen.xib */; };
 		914290B71B1BFB2A0047B51B /* popTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 914290B61B1BFB2A0047B51B /* popTestTests.m */; };
+		915D05201B427B8D002B4297 /* Graphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 915D051F1B427B8D002B4297 /* Graphics.m */; };
+		915D05231B427D67002B4297 /* BasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 915D05221B427D67002B4297 /* BasicView.m */; };
+		915D05271B438BE8002B4297 /* Beisaier.m in Sources */ = {isa = PBXBuildFile; fileRef = 915D05261B438BE8002B4297 /* Beisaier.m */; };
+		91BC47DE1B26ECB000B4758C /* Password.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BC47DD1B26ECB000B4758C /* Password.m */; };
+		91BC47E11B26ECE400B4758C /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BC47E01B26ECE400B4758C /* PasswordViewController.m */; };
 		A1104A5513CA2CDE3ED3AFFA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C332A3E13FCB46A4F23D6E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +42,18 @@
 		68C332A3E13FCB46A4F23D6E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B814A8E84D3C161A22118F1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		7B7A5C35D29A48CCA0164983 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		911F9D871B1EEA2A009124DB /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		911F9D881B1EEA2A009124DB /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+		911F9D8A1B1EEA7E009124DB /* FlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatButton.h; sourceTree = "<group>"; };
+		911F9D8B1B1EEA7E009124DB /* FlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatButton.m; sourceTree = "<group>"; };
+		911F9D8D1B1EF0C4009124DB /* UIColor+CustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColors.h"; sourceTree = "<group>"; };
+		911F9D8E1B1EF0C4009124DB /* UIColor+CustomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColors.m"; sourceTree = "<group>"; };
+		911F9DFF1B2045AE009124DB /* SkidViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkidViewController.h; sourceTree = "<group>"; };
+		911F9E001B2045AE009124DB /* SkidViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkidViewController.m; sourceTree = "<group>"; };
+		911F9EE31B217BAD009124DB /* CrossViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrossViewController.h; sourceTree = "<group>"; };
+		911F9EE41B217BAD009124DB /* CrossViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossViewController.m; sourceTree = "<group>"; };
+		911F9EE61B217C95009124DB /* PaperButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperButton.h; sourceTree = "<group>"; };
+		911F9EE71B217C95009124DB /* PaperButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperButton.m; sourceTree = "<group>"; };
 		914290971B1BFB2A0047B51B /* popTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9142909B1B1BFB2A0047B51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9142909C1B1BFB2A0047B51B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,6 +67,16 @@
 		914290B01B1BFB2A0047B51B /* popTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		914290B51B1BFB2A0047B51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		914290B61B1BFB2A0047B51B /* popTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popTestTests.m; sourceTree = "<group>"; };
+		915D051E1B427B8D002B4297 /* Graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graphics.h; sourceTree = "<group>"; };
+		915D051F1B427B8D002B4297 /* Graphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graphics.m; sourceTree = "<group>"; };
+		915D05211B427D67002B4297 /* BasicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicView.h; sourceTree = "<group>"; };
+		915D05221B427D67002B4297 /* BasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicView.m; sourceTree = "<group>"; };
+		915D05251B438BE8002B4297 /* Beisaier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beisaier.h; sourceTree = "<group>"; };
+		915D05261B438BE8002B4297 /* Beisaier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beisaier.m; sourceTree = "<group>"; };
+		91BC47DC1B26ECB000B4758C /* Password.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Password.h; sourceTree = "<group>"; };
+		91BC47DD1B26ECB000B4758C /* Password.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Password.m; sourceTree = "<group>"; };
+		91BC47DF1B26ECE400B4758C /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
+		91BC47E01B26ECE400B4758C /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +107,40 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		911F9DFE1B204561009124DB /* 侧滑 */ = {
+			isa = PBXGroup;
+			children = (
+				911F9DFF1B2045AE009124DB /* SkidViewController.h */,
+				911F9E001B2045AE009124DB /* SkidViewController.m */,
+			);
+			name = "侧滑";
+			sourceTree = "<group>";
+		};
+		911F9EE21B217B8A009124DB /* 交叉btn */ = {
+			isa = PBXGroup;
+			children = (
+				911F9EE31B217BAD009124DB /* CrossViewController.h */,
+				911F9EE41B217BAD009124DB /* CrossViewController.m */,
+				911F9EE61B217C95009124DB /* PaperButton.h */,
+				911F9EE71B217C95009124DB /* PaperButton.m */,
+			);
+			name = "交叉btn";
+			sourceTree = "<group>";
+		};
 		9142908E1B1BFB2A0047B51B = {
 			isa = PBXGroup;
 			children = (
+				915D05241B438B9C002B4297 /* 贝塞尔曲线 */,
+				915D051D1B427B00002B4297 /* 统计图 */,
+				91BC47D81B26EAB100B4758C /* New Group */,
+				911F9EE21B217B8A009124DB /* 交叉btn */,
+				911F9DFE1B204561009124DB /* 侧滑 */,
+				911F9D8D1B1EF0C4009124DB /* UIColor+CustomColors.h */,
+				911F9D8E1B1EF0C4009124DB /* UIColor+CustomColors.m */,
+				911F9D8A1B1EEA7E009124DB /* FlatButton.h */,
+				911F9D8B1B1EEA7E009124DB /* FlatButton.m */,
+				911F9D871B1EEA2A009124DB /* ButtonViewController.h */,
+				911F9D881B1EEA2A009124DB /* ButtonViewController.m */,
 				914290991B1BFB2A0047B51B /* popTest */,
 				914290B31B1BFB2A0047B51B /* popTestTests */,
 				914290981B1BFB2A0047B51B /* Products */,
@@ -133,6 +197,37 @@
 				914290B51B1BFB2A0047B51B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		915D051D1B427B00002B4297 /* 统计图 */ = {
+			isa = PBXGroup;
+			children = (
+				915D051E1B427B8D002B4297 /* Graphics.h */,
+				915D051F1B427B8D002B4297 /* Graphics.m */,
+				915D05211B427D67002B4297 /* BasicView.h */,
+				915D05221B427D67002B4297 /* BasicView.m */,
+			);
+			name = "统计图";
+			sourceTree = "<group>";
+		};
+		915D05241B438B9C002B4297 /* 贝塞尔曲线 */ = {
+			isa = PBXGroup;
+			children = (
+				915D05251B438BE8002B4297 /* Beisaier.h */,
+				915D05261B438BE8002B4297 /* Beisaier.m */,
+			);
+			name = "贝塞尔曲线";
+			sourceTree = "<group>";
+		};
+		91BC47D81B26EAB100B4758C /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				91BC47DC1B26ECB000B4758C /* Password.h */,
+				91BC47DD1B26ECB000B4758C /* Password.m */,
+				91BC47DF1B26ECE400B4758C /* PasswordViewController.h */,
+				91BC47E01B26ECE400B4758C /* PasswordViewController.m */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 		B5417C45048BD3D224AC6235 /* Frameworks */ = {
@@ -278,9 +373,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				911F9D8F1B1EF0C4009124DB /* UIColor+CustomColors.m in Sources */,
+				91BC47E11B26ECE400B4758C /* PasswordViewController.m in Sources */,
+				911F9EE51B217BAD009124DB /* CrossViewController.m in Sources */,
+				915D05231B427D67002B4297 /* BasicView.m in Sources */,
+				911F9EE81B217C95009124DB /* PaperButton.m in Sources */,
+				911F9D891B1EEA2A009124DB /* ButtonViewController.m in Sources */,
 				914290A31B1BFB2A0047B51B /* ViewController.m in Sources */,
 				914290A01B1BFB2A0047B51B /* AppDelegate.m in Sources */,
+				911F9E011B2045AE009124DB /* SkidViewController.m in Sources */,
 				9142909D1B1BFB2A0047B51B /* main.m in Sources */,
+				91BC47DE1B26ECB000B4758C /* Password.m in Sources */,
+				915D05201B427B8D002B4297 /* Graphics.m in Sources */,
+				911F9D8C1B1EEA7E009124DB /* FlatButton.m in Sources */,
+				915D05271B438BE8002B4297 /* Beisaier.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
